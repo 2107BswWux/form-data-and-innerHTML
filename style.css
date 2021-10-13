@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    background: #333;
+}
+.profile-container{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    background: lightcyan;
+}
+.profile-container__form-container{
+    width: 50vw;
+    height: 90vh;
+}
+
+.profile-information{
+    width: 50vw;
+    height: 90vh;
+    background: lightgoldenrodyellow;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav></nav>
+
+    <section class="profile-container">
+
+        <div class="profile-container__form-container">
+            <form id="registerForm" action="">
+                <label for="firstName">first name</label>
+                <input type="text" id="firstName" name="firstName">
+
+                <label for="lastName">last name</label>
+               
+                <input type="text" id="lastName" name="lastName">
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+                <input id="submit" type="submit">
+            </form>
+            <div>
+                <button id="like">like</button>
+                <p id="likeCount"></p>
+            </div>
+        </div>
+
+        <div class="profile-information">
+            <h1 id="name"></h1>
+            <p id=discription></p>
+        </div>
+
+
+
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
